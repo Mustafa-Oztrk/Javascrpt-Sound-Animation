@@ -1,0 +1,20 @@
+#sound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 8rem;
+}
+
+#sound >i{
+    display: block;
+    border-radius: .5rem;
+    width: 1rem;
+    height: 2rem;
+    background-color: white;
+    animation: anim .5s linear 0s infinite alternate;
+}
+@keyframes anim{
+    from{height:  2rem;}
+    to  {height: 9rem;}
+}
